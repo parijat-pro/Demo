@@ -1,1 +1,10 @@
-///////////////  Hard Constraints Identification /////////////////
+///////////////  Soft Constraints Identification /////////////////
+1)	No class between 12-2pm on Fridays.
+2)	Each class should be of one hour only.
+3)	If a teacher decides to reschedule the classes or wants to take an extra class,
+it will be done on some given particular days and timings only.
+4)	Theory in the first half, lab in the second half.
+5)	1hour lunch break. (1PM – 2PM)
+6)	Data usage to be kept in consideration.
+7)	Theory and lab class of the same subject on the same day.
+8)	No two theory classes of the same subject on a single day.

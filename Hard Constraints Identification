@@ -1,2 +1,10 @@
 ///////////////  HARD CONSTARINT IDENTIFICATION /////////////////
-edit here
+1)	No more than 1 theory class on a single day.
+2)	Maximum 2 classes on a single day including lab.
+3)	Two classes should not be on same time slot.
+4)	No teacher can teach two classes at same time.
+5)	Students can not join two classes at same time.
+6)	There should be no classes on Saturday and Sunday.
+7)	Teaching hour is within 11:00 AM to 5:00 PM.
+8)	Two classes should not be one after another.
+9)	All subjects should be covered at least once in every week.
