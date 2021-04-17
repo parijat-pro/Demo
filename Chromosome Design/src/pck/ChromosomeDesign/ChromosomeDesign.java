@@ -69,7 +69,7 @@ public class ChromosomeDesign {
                     if(details!=null)
                         System.out.print("["+details.isPracticalClass()+","+details.getSubject().subjectCode+","+details.getTeacher().getTeacherAbbreviation()+"]   ");
                     else
-                        System.out.print("\t--\t");
+                        System.out.print(" \t\t--\t\t ");
                 }
                 System.out.println();
             }

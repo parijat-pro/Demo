@@ -20,7 +20,7 @@ public class Subject{
     }
 
     public Teacher getRespectiveTeacher() {
-        
+
         switch (this.subjectCode){
             case "MCAC101":
             case "MCAD101D":
