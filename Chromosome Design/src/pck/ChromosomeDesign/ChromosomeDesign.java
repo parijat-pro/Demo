@@ -9,7 +9,7 @@ public class ChromosomeDesign {
 
     for(int i=0;i<10;i++){
         for(int j=0;j<7;j++){
-            //rand row & col;
+            //rand row(day) & col(timeslot);
 
             chromosomes[i].setClass(row,col,new ClassDetails(false,...));
         }

@@ -13,19 +13,31 @@ public class Chromosome{
         classes[row][col]=classDetails;
     }
 
+    public boolean isAllotted(int row, int col) {
+        return classes[row][col]!=null;
+    }
+
     public void getFitness(){
-        /*softFitness=0;
-        //generate fitness;
-        i=0-5
-        hardFitnessDayWise[i]=0;
-        softFitnessDayWise[i]=0
-               j= 0-6
-                        check
-                                hardFitnessDayWise++;
-
-
-
-        softFitness+=softFitnessDayWise[i];*/
+        softFitness=0;
+        int classNext=6;
+        for(int day=0;day<5;day++){
+            hardFitnessDayWise[i]=0;
+            softFitnessDayWise[i]=0;
+            for(int timeSlot=0;timeSlot<6;timeSlot++){
+                int result = getNumberTheoryClass(classNext);
+                if(result>classNext)
+                    hardFitnessDayWise[timeSlot]++;
+            }
+        }
+    }
+    private int getNumberTheoryClass(int classNext){
+        int result=0;
+        for(int col=0;col<6;col++){
+            if(classes[classNext][col].isPracticalClass){
+                result++;
+            }
+        }
+        return(result);
     }
 
 }
