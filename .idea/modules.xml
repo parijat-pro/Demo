@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chromosome Design/Chromosome Design.iml" filepath="$PROJECT_DIR$/Chromosome Design/Chromosome Design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crossover Method/Crossover Method.iml" filepath="$PROJECT_DIR$/Crossover Method/Crossover Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Demo.iml" filepath="$PROJECT_DIR$/.idea/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selection Method/Selection Method.iml" filepath="$PROJECT_DIR$/Selection Method/Selection Method.iml" />
+    </modules>
+  </component>
+</project>
