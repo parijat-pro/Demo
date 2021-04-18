@@ -67,9 +67,10 @@ public class ChromosomeDesign {
                 for(int col=0;col<6;col++){
                     ClassDetails details=chromosomes[chromosomeCounter].getClassDetails(row,col);
                     if(details!=null)
-                        System.out.print("["+details.isPracticalClass()+","+details.getSubject().subjectCode+","+details.getTeacher().getTeacherAbbreviation()+"]   ");
+                        System.out.print("["+details.isPracticalClass()+","+details.getSubject().subjectCode+","
+                                +details.getTeacher().getTeacherAbbreviation()+"]\t");
                     else
-                        System.out.print(" \t\t--\t\t ");
+                        System.out.print(" \t\t--\t\t \t");
                 }
                 System.out.println();
             }

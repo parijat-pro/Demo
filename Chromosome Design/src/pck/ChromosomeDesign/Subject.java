@@ -29,7 +29,7 @@ public class Subject{
             case "MCAC103":
             case "MCAC102":
             case "MCAC192":
-                return (new Teacher("Gourav Mondal","GM"));
+                return (new Teacher("Gourab Mondal","GM"));
             case "MCAS101":
                 return (new Teacher("Sushanta Kayal","SK"));
             default:
