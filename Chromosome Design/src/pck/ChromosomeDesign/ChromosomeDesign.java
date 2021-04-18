@@ -15,8 +15,10 @@ public class ChromosomeDesign {
         subjects[4]=new Subject("Introduction to Artificial Intelligence"," MCAD101D");
         subjects[5]=new Subject("Computer Networks","MCAC192");
         subjects[6]=new Subject("Programming for problem solving","MCAC191");
-
     }
+    for(int i=0;i<10;i++){
+        for(int j=0;j<7;j++){
+            //rand row(day) & col(timeslot);
 
     private void setPopulation(){
         for(int chromosomeNumber=0;chromosomeNumber<10;chromosomeNumber++){
